@@ -1,0 +1,48 @@
+2023-12-28T17:55:21.192Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T17:56:24.696Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T17:58:27.453Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:00:04.515Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:00:49.826Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:01:05.388Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:02:40.036Z [store-api] info : POST /client - {"client_id":5,"name":"Emilly Beatriz Stella Dias","cpf":"373.436.952-58","phone":"(92) 2608-4116","email":"emilly_beatriz_dias@gerdal.com.br","address":"Beco Getúlio Vargas, 809"}
+2023-12-28T18:03:28.161Z [store-api] info : GET /client
+2023-12-28T18:03:58.947Z [store-api] info : GET /client/:id
+2023-12-28T18:04:44.047Z [store-api] error : DELETE  - update or delete on table "clients" violates foreign key constraint "fk_clients" on table "sales"
+2023-12-28T18:05:56.421Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:06:37.695Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:07:03.776Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:07:39.448Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:08:44.667Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:09:09.225Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:09:14.517Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:11:09.311Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:11:37.910Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:12:07.770Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:12:33.139Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:13:17.693Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:14:24.480Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:14:44.716Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:15:03.801Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:15:21.507Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:15:25.553Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:15:32.282Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:15:53.248Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:16:22.186Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:20:15.299Z [store-api] info : GET /product
+2023-12-28T18:20:49.702Z [store-api] info : GET /product/:id
+2023-12-28T18:21:33.589Z [store-api] info : GET /supplier
+2023-12-28T18:21:55.978Z [store-api] info : GET /sale
+2023-12-28T18:30:09.921Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:32:26.961Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:33:30.571Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:34:33.330Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:38:32.579Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:39:08.048Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:51:54.228Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:52:40.439Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:55:52.834Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T18:58:37.299Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:01:54.768Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:02:32.465Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:10:41.596Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:16:36.145Z [store-api] info : Servidor rodando na porta 3000
