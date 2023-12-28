@@ -46,3 +46,34 @@
 2023-12-28T19:02:32.465Z [store-api] info : Servidor rodando na porta 3000
 2023-12-28T19:10:41.596Z [store-api] info : Servidor rodando na porta 3000
 2023-12-28T19:16:36.145Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:20:41.795Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:22:09.384Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:23:21.071Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:24:58.935Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:25:53.883Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:27:46.895Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:33:20.450Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:34:17.144Z [store-api] error : GET  - column "clientId" does not exist
+2023-12-28T19:35:31.412Z [store-api] error : GET  - column "clientId" does not exist
+2023-12-28T19:36:21.826Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:36:30.449Z [store-api] error : GET  - column "clientId" does not exist
+2023-12-28T19:38:09.043Z [store-api] error : POST  - column "clientId" of relation "clients" does not exist
+2023-12-28T19:44:26.413Z [store-api] error : POST  - column "clientId" of relation "clients" does not exist
+2023-12-28T19:49:59.369Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:50:36.880Z [store-api] error : GET  - column "supplierId" does not exist
+2023-12-28T19:53:40.040Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:53:46.001Z [store-api] error : GET  - column "supplierId" does not exist
+2023-12-28T19:53:53.669Z [store-api] error : GET  - connect is not a function
+2023-12-28T19:54:09.955Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:54:11.504Z [store-api] error : GET  - connect is not defined
+2023-12-28T19:54:43.381Z [store-api] error : GET  - connect is not a function
+2023-12-28T19:54:49.004Z [store-api] error : GET  - connect is not a function
+2023-12-28T19:55:20.833Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:55:24.795Z [store-api] error : GET  - connect is not defined
+2023-12-28T19:55:32.425Z [store-api] error : GET  - column "supplierId" does not exist
+2023-12-28T19:56:35.312Z [store-api] error : GET  - column "clientId" does not exist
+2023-12-28T19:57:40.456Z [store-api] info : Servidor rodando na porta 3000
+2023-12-28T19:57:59.780Z [store-api] error : GET  - column "clientId" does not exist
+2023-12-28T19:58:01.514Z [store-api] error : GET  - column "clientId" does not exist
+2023-12-28T19:58:05.857Z [store-api] error : GET  - column "clientId" does not exist
+2023-12-28T20:07:30.248Z [store-api] info : Servidor rodando na porta 3000
