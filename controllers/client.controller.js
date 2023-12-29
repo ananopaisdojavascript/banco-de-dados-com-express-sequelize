@@ -37,7 +37,7 @@ const getClient = async(request, response, next) => {
 const updateClient = async(request, response, next) => {
   try {
     let client = request.body
-    const areTheFieldsValid = !client.name || !client.cpf || !client.phone || !client.email || !client.address
+    const areTheFieldsValid = !client.clientId || !client.name || !client.cpf || !client.phone || !client.email || !client.address
 
     if(areTheFieldsValid) {
       throw new Error("O preenchimento dos campos de nome, cpf, telefone, e-mail e endereço é obrigatório.")

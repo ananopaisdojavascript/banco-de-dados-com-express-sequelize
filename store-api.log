@@ -121,3 +121,12 @@
 2023-12-29T17:55:24.252Z [store-api] info : Servidor rodando na porta 3000
 2023-12-29T17:55:38.584Z [store-api] error : DELETE  - update or delete on table "clients" violates foreign key constraint "fk_clients" on table "sales"
 2023-12-29T17:56:33.699Z [store-api] error : DELETE  - update or delete on table "clients" violates foreign key constraint "fk_clients" on table "sales"
+2023-12-29T18:17:48.319Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T18:17:53.115Z [store-api] error : POST  - O preenchimento dos campos de nome, cnpj, telefone, e-mail e endereço é obrigatório.
+2023-12-29T18:18:49.669Z [store-api] error : POST  - column "client_id" of relation "suppliers" does not exist
+2023-12-29T18:20:00.242Z [store-api] error : GET  - column "client_id" does not exist
+2023-12-29T18:21:01.429Z [store-api] error : GET  - column "client_id" does not exist
+2023-12-29T18:22:31.959Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T18:22:41.333Z [store-api] info : POST /supplier - {"supplierId":4,"name":"Nina e Cláudio Mudanças ME","cnpj":"82.723.980/0001-15","phone":"(11) 3576-6493","email":"juridico@ninaeclaudiomudancasme.com.br","address":"juridico@ninaeclaudiomudancasme.com.br, 872"}
+2023-12-29T18:23:23.686Z [store-api] info : GET /supplier
+2023-12-29T18:23:27.735Z [store-api] info : GET /supplier/:id
