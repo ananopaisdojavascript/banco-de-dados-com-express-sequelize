@@ -77,3 +77,47 @@
 2023-12-28T19:58:01.514Z [store-api] error : GET  - column "clientId" does not exist
 2023-12-28T19:58:05.857Z [store-api] error : GET  - column "clientId" does not exist
 2023-12-28T20:07:30.248Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:13:06.372Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:15:22.624Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:16:49.831Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:17:30.710Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:18:50.133Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:21:40.805Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:22:30.909Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:22:47.656Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:24:25.372Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:25:48.259Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:26:13.055Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:27:04.233Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:27:34.845Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:28:06.069Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:28:45.486Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:29:14.600Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:29:47.283Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:33:08.086Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:33:46.482Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:35:51.451Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:38:36.857Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:40:41.327Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:41:40.746Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:41:49.767Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:43:17.457Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:43:36.240Z [store-api] info : POST /client - {"clientId":6,"name":"Tiago Diego da Cunha","cpf":"644.670.314-72","phone":"(69) 3590-1003","email":"tiago_dacunha@aichele.com.br","address":"Rua Maringá, 196"}
+2023-12-29T17:45:05.318Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:45:13.522Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:45:39.853Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:45:48.684Z [store-api] info : GET /client
+2023-12-29T17:46:51.847Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:47:10.356Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:47:40.787Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:47:47.271Z [store-api] info : GET /client/:id
+2023-12-29T17:48:07.858Z [store-api] info : GET /client
+2023-12-29T17:49:37.480Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:50:06.385Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:51:54.095Z [store-api] error : PUT  - Unexpected token , in JSON at position 174
+2023-12-29T17:53:12.287Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:53:28.564Z [store-api] info : POST /client - {"clientId":2,"name":"João Oliveira","cpf":"930.498.860-80","phone":"1234-5678","email":"joao@email.com","address":"Rua X, 300"}
+2023-12-29T17:54:46.483Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:55:24.252Z [store-api] info : Servidor rodando na porta 3000
+2023-12-29T17:55:38.584Z [store-api] error : DELETE  - update or delete on table "clients" violates foreign key constraint "fk_clients" on table "sales"
+2023-12-29T17:56:33.699Z [store-api] error : DELETE  - update or delete on table "clients" violates foreign key constraint "fk_clients" on table "sales"
