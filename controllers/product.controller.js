@@ -1,4 +1,5 @@
 import ProductService from "../services/product.service.js";
+import ProductInfoService from "../services/productInfo.service.js";
 
 const createProduct = async(request, response, next) => {
   try {
@@ -59,6 +60,88 @@ const deleteProduct = async (request, response, next) => {
   }
 };
 
+// MongoDB
+
+const createProductInfo = async (request, response, next) => {
+  try {
+    let productInfo = request.body
+    if (!productInfo.productId) {
+      throw new Error("O id do produto é obrigatório")
+    }
+    await ProductInfoService.saveProductInfo(productInfo)
+    response.end()
+    logger.info(`POST /product/info - ${JSON.stringify(productInfo)}`)
+  } catch (error) {
+    next(error)
+  }
+}
+
+const updateProductInfo = async (request, response, next) => {
+  try {
+    let productInfo = request.body
+    if (!productInfo.productId) {
+      throw new Error("O id do produto é obrigatório")
+    }
+    await ProductInfoService.updateProductInfo(productInfo)
+    response.end()
+    logger.info(`PUT /product/info - ${JSON.stringify(productInfo)}`)
+  } catch (error) {
+    next(error)
+  }
+}
+
+const createReview = async (request, response, next) => {
+  try {
+    let params = request.body
+    if (!params.productId || !params.review) {
+      throw new Error("O id e o comentário sobre o produto são obrigatórios")
+    }
+    await ProductInfoService.createReview(params.review, params.productId)
+    logger.info(`POST /product/review`)
+    response.end()
+  } catch (error) {
+    next(error)
+  }
+}
+
+const deleteReview = async (request, response, next) => {
+  try {
+    await ProductInfoService.deleteReview(request.params.id, request.params.index)
+    logger.info(`DELETE /product/${request.params.id}/review/${request.params.index}`)
+    response.end()
+  } catch (error) {
+    next(error)
+  }
+}
+
+const getProductInfo = async (_request, response, next) => {
+  try {
+    response.send(await ProductInfoService.findAllProductInfo())
+    logger.info("GET /product/info")
+  } catch (error) {
+    next(error)
+  }
+}
+
+const deleteProductInfo = async (request, response, next) => {
+  try {
+    response.send(await ProductInfoService.deleteProductInfo(request.params.id))
+    logger.info("DELETE /product/info")
+  } catch (error) {
+    next(error)
+  }
+}
+
 export default {
-  createProduct, getProducts, getProduct, updateProduct, deleteProduct
+  createProduct, 
+  getProducts, 
+  getProduct, 
+  updateProduct, 
+  deleteProduct, 
+  createProductInfo, 
+  updateProductInfo, 
+  createReview, 
+  deleteReview, 
+  getProductInfo,
+  deleteProductInfo
 }

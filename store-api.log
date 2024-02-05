@@ -149,3 +149,158 @@
 2023-12-29T18:58:03.793Z [store-api] info : GET /product
 2023-12-29T19:00:33.919Z [store-api] info : GET /product
 2023-12-29T19:00:38.977Z [store-api] info : GET /product/:id
+2024-02-02T21:44:02.186Z [store-api] info : Servidor rodando na porta 3000
+2024-02-02T21:48:40.255Z [store-api] info : GET /client
+2024-02-02T21:48:54.536Z [store-api] info : GET /supplier
+2024-02-02T21:49:04.339Z [store-api] info : GET /product
+2024-02-03T00:39:49.743Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T00:44:53.860Z [store-api] info : POST /product/info - {"productId":2,"category":"Telefone fixo","width":"15cm","height":"25cm","reviews":[],"_id":"65bd8c85ae085ab8c532d3fd"}
+2024-02-03T00:45:10.159Z [store-api] error : GET  - invalid input syntax for integer: "info"
+2024-02-03T00:50:42.199Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T00:52:42.717Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T00:52:54.392Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T00:54:14.486Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T00:54:29.835Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T00:56:32.011Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T00:57:28.969Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T00:58:36.392Z [store-api] info : PUT /product/info - {"productId":2,"category":"Telefone fixo Toshiba","width":"15cm","height":"25cm","reviews":[]}
+2024-02-03T01:02:33.782Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:02:41.742Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:04:41.325Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:05:12.615Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:07:46.467Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:08:41.661Z [store-api] info : GET /product/:id
+2024-02-03T01:09:25.499Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:09:33.536Z [store-api] info : GET /product/:id
+2024-02-03T01:10:01.828Z [store-api] info : GET /product
+2024-02-03T01:10:17.784Z [store-api] info : GET /product/:id
+2024-02-03T01:11:59.785Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:12:07.992Z [store-api] info : GET /product/:id
+2024-02-03T01:17:12.319Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:19:21.055Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:21:20.934Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:22:50.412Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:22:58.745Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:26:18.721Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:27:17.986Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:28:16.595Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:30:51.768Z [store-api] error : POST  - O id e o comentário sobre o produto são obrigatórios
+2024-02-03T01:31:19.370Z [store-api] error : POST  - O id e o comentário sobre o produto são obrigatórios
+2024-02-03T01:33:28.515Z [store-api] info : Servidor rodando na porta 3000
+2024-02-03T01:33:53.085Z [store-api] info : GET /product/:id
+2024-02-03T01:35:38.645Z [store-api] info : GET /product/:id
+2024-02-04T13:07:23.251Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:07:56.309Z [store-api] info : GET /product
+2024-02-04T13:13:04.429Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:25:01.101Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:34:51.398Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:36:17.956Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:36:29.898Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:37:09.852Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:39:05.591Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:39:50.063Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:47:06.619Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:47:50.677Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:51:38.948Z [store-api] info : GET /product/:id
+2024-02-04T13:52:02.594Z [store-api] error : DELETE  - Cannot read properties of null (reading 'reviews')
+2024-02-04T13:53:30.389Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T13:53:51.258Z [store-api] info : GET /product/:id
+2024-02-04T14:05:54.259Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:09:54.303Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:10:08.108Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:14:53.689Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:16:40.123Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:17:46.485Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:18:02.797Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:18:49.184Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:19:28.222Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:21:19.133Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:22:50.978Z [store-api] error : GET  - invalid input syntax for integer: "info"
+2024-02-04T14:23:40.587Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:23:49.969Z [store-api] error : GET  - invalid input syntax for integer: "info"
+2024-02-04T14:24:39.976Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:24:47.521Z [store-api] error : GET  - invalid input syntax for integer: "info"
+2024-02-04T14:25:15.803Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:25:22.745Z [store-api] error : GET  - invalid input syntax for integer: "info"
+2024-02-04T14:25:31.494Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:34:41.861Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:34:50.255Z [store-api] info : GET /product/info
+2024-02-04T14:35:38.521Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:35:46.208Z [store-api] info : GET /product/info
+2024-02-04T14:38:00.301Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:38:10.132Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:40:31.289Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:41:51.056Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:42:22.388Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:44:25.816Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:45:12.931Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:45:35.484Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:46:02.726Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:57:22.302Z [store-api] info : DELETE /product/info
+2024-02-04T14:57:32.159Z [store-api] info : GET /product/info
+2024-02-04T14:59:34.950Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T14:59:50.902Z [store-api] info : DELETE /product/info
+2024-02-04T15:00:00.263Z [store-api] info : GET /product/info
+2024-02-04T15:06:25.869Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:06:35.176Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:09:08.473Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:10:59.996Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:11:41.258Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:12:20.104Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:13:15.943Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:14:59.627Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:15:10.500Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:17:52.848Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:22:55.588Z [store-api] info : Servidor rodando na porta 3000
+2024-02-04T15:30:05.755Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:19:08.087Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:19:27.567Z [store-api] error : GET  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:19:37.811Z [store-api] info : GET /product
+2024-02-05T21:21:21.216Z [store-api] error : POST  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:21:57.710Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:22:09.270Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:23:06.565Z [store-api] error : POST  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:25:04.227Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:25:16.894Z [store-api] error : POST  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:27:15.549Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:27:21.795Z [store-api] error : POST  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:28:33.113Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:28:38.931Z [store-api] error : POST  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:35:39.679Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:36:18.242Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:36:25.203Z [store-api] error : POST  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:38:07.902Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:38:50.903Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:39:55.758Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:40:13.955Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:40:31.024Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:40:46.135Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:41:03.240Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:41:15.133Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:41:32.146Z [store-api] error : POST  - ProductService.saveProductInfo is not a function
+2024-02-05T21:46:27.118Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:46:34.105Z [store-api] error : POST  - connect is not a function
+2024-02-05T21:50:56.020Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T21:51:01.595Z [store-api] error : POST  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:53:08.167Z [store-api] error : GET  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:57:36.818Z [store-api] error : POST  - Cannot read properties of undefined (reading 'model')
+2024-02-05T21:57:59.406Z [store-api] error : POST  - O preenchimento dos campos de nome, descrição, valor, estoque e id do fornecedor é obrigatório.
+2024-02-05T21:58:05.312Z [store-api] info : GET /product
+2024-02-05T21:59:09.409Z [store-api] error : GET  - Cannot read properties of undefined (reading 'model')
+2024-02-05T22:10:08.338Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T22:10:13.506Z [store-api] error : GET  - Cannot read properties of undefined (reading 'model')
+2024-02-05T22:10:36.634Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T22:10:42.427Z [store-api] info : GET /product/info
+2024-02-05T22:10:48.759Z [store-api] info : POST /product/info - {"productId":5,"category":"Eletrodomésticos","weight":"50cm","height":"120cm","reviews":[]}
+2024-02-05T22:10:53.409Z [store-api] info : GET /product/info
+2024-02-05T22:25:27.452Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T22:25:45.548Z [store-api] info : GET /product/info
+2024-02-05T22:26:01.444Z [store-api] info : GET /product
+2024-02-05T22:26:54.913Z [store-api] info : POST /product/info - {"productId":1,"category":"Telefone fixo","weight":"10cm","height":"20cm","reviews":[]}
+2024-02-05T22:27:43.864Z [store-api] info : GET /product/info
+2024-02-05T22:32:33.560Z [store-api] info : POST /product/review
+2024-02-05T22:32:43.862Z [store-api] error : GET  - productInfoRepository is not defined
+2024-02-05T22:33:00.335Z [store-api] info : GET /product
+2024-02-05T22:33:49.591Z [store-api] error : GET  - productInfoRepository is not defined
+2024-02-05T22:35:30.256Z [store-api] info : Servidor rodando na porta 3000
+2024-02-05T22:35:37.188Z [store-api] info : GET /product/:id

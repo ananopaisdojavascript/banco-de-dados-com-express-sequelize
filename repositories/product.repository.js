@@ -18,7 +18,7 @@ const getProducts = async () => {
 
 const getProduct = async (id) => {
   try {
-    return await Product.findByPk(id)
+    return await Product.findByPk(id, { raw: true })
   } catch (error) {
     throw error
   }

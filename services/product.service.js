@@ -1,5 +1,6 @@
 import ProductRepository from "../repositories/product.repository.js"
 import SupplierRepository from "../repositories/supplier.repository.js"
+import productInfoRepository from "../repositories/productInfo.repository.js"
 
 const createProduct = async (product) => {
   if (await SupplierRepository.getSupplier(product.supplierId)) {
@@ -13,7 +14,9 @@ const getProducts = async () => {
 }
 
 const getProduct = async (id) => {
-  return await ProductRepository.getProduct(id)
+  const product = await ProductRepository.getProduct(id)
+  product.info = await productInfoRepository.getProductInfo(parseInt(id))
+  return product;
 }
 
 const updateProduct = async (product) => {
@@ -28,5 +31,9 @@ const deleteProduct = async (id) => {
 };
 
 export default {
-  createProduct, getProducts, getProduct, updateProduct, deleteProduct
+  createProduct, 
+  getProducts, 
+  getProduct, 
+  updateProduct, 
+  deleteProduct
 }
